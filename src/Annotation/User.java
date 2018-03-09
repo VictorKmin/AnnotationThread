@@ -6,6 +6,7 @@ import java.util.Objects;
 
 public class User {
     private int id;
+    @NameValidator
     private String name;
     //3) Вставляємо анотацію куди нас потрібно
     @EnailValidator
